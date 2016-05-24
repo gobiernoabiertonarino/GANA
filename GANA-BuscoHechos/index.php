@@ -1,4 +1,4 @@
-<?php require 'conexion.php'; require 'consultas.php'; ?>
+<?php require 'gana.php'; require 'consultas.php'; ?>
 <?php if($_GET['acc']=='buscar'){ 
 			$contitle="SELECT * FROM `tics_gana`.informes WHERE id='$_GET[id]'";	$ctitle=mysql_query($contitle);				
 			 if($dtitle=mysql_fetch_array($ctitle)){ $title=strtoupper($dtitle['tit_act']); $description= substr($dtitle['des_act'],0,strrpos(substr($dtitle['des_act'],0,254)," "));	 }
