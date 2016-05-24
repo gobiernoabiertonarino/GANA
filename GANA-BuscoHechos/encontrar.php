@@ -1,4 +1,4 @@
-<?php require 'conexion.php'; require 'consultas.php';
+<?php require 'gana.php'; require 'consultas.php';
 
 setlocale(LC_TIME, 'es_CO');
 mysql_query ("SET NAMES 'utf8'");
