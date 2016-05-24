@@ -126,7 +126,7 @@ return $dia;
          </div>
          <div id="comentarios">
 			 <?php 
-			 include('conexion.php'); 
+			 include('gana.php'); 
 			 $jbucheli=$act; $orden="order by gus_act desc";
              include('inicio_comentarios.php'); ?>
          </div>
