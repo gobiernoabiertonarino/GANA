@@ -17,4 +17,4 @@ espero que no tengas inconvenientes,
 
 Un abrazo.
 
-contactos: gana.narino.gov.co
+contactos: gana.narino.gov.co, gana@narino.gov.co
