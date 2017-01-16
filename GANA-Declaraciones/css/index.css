@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+/*@mixin responsive-bg-image($image-width, $image-height) { background-size: 100%; height: 0; padding-bottom: percentage($image-height / $image-width); display: block; }*/
+body{ background:#e5e5e5 url('http://aplicaciones.narino.gov.co/SAJ/img/index.jpg'); font-family: 'Text Me One', sans-serif; font-size:18px;}
+input{ font-family: 'Text Me One', sans-serif; font-size:2.5em; width:100%; border-radius:0.2em; border:1px solid #ccc; padding:0.5em; box-sizing: border-box; background-clip: padding-box; background:#fcfcfc; appearance: textfield; outline:0px; }
+input:hover,select:hover, textarea:hover{ box-shadow:0px 0px 5px #b3c833; border:1px solid #b3c833;}
+input:focus,select:focus, textarea:focus{ border:1px solid #b3c833; background:#fff; }}
+input:hover{ box-shadow:0px 0px 5px #49aca8; border:1px solid #8cab03;}
+section{ background:#fff; padding:0.8em; margin:0.5em 4em ; width:200px;  border-radius:0.4em; border:1px solid #bbb; box-shadow:5px 5px 10px rgba(51,51,51,0.5);}
+#botons{ background:#3b4854; cursor:pointer; color:#FFF;}
+#botons:hover{ background:#f0f0f0; color:#333;}
+#botonn{ background:#f0f0f0; cursor:pointer; color:#333;}
+#botonn:hover{ background:#3b4854; color:#fff;}
+#botons{ background:#3b4854; cursor:pointer; color:#FFF;}
+#contenedor{ margin-top:1em;}
+#acceso, #secretaria{ display:inline-block; vertical-align:top;}
+#secretaria{  font-size:4em; margin-top:0.5em;
+;}
+#secretaria div{ }
+#todo{ position:absolute; top:30%;}
+#pie{
+position:absolute; bottom:0.3em; right:0.5em;
+font-size:3em; 
+color:#f5f5f5;
+ text-shadow: 0 1px 0 #ccc,
+ 0 2px 0 #c9c9c9,
+ 0 3px 0 #bbb,
+ 0 4px 0 #b9b9b9,
+ 0 5px 0 #aaa,
+ 0 6px 1px rgba(0,0,0,.1),
+ 0 0 5px rgba(0,0,0,.1),
+ 0 1px 3px rgba(0,0,0,.3),
+ 0 3px 5px rgba(0,0,0,.2),
+ 0 5px 10px rgba(0,0,0,.25),
+ 0 10px 10px rgba(0,0,0,.2),
+ 0 20px 20px rgba(0,0,0,.15);
+}
+
+#todo{ position:absolute; top:30%;}}
